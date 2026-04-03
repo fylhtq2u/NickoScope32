@@ -1,0 +1,295 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "657a6403-bab3-4845-b291-93bf2a64f630")
+	(paper "A3")
+	(title_block
+		(title "Nickoscope32")
+		(rev "0.1")
+	)
+	(lib_symbols)
+	(sheet
+		(at 55.88 101.6)
+		(size 25.4 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "157fc956-a04e-40ba-ae67-457d39eeb4e1")
+		(property "Sheetname" "PSU"
+			(at 55.88 100.8884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "./PSU/PSU.kicad_sch"
+			(at 55.88 140.2846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Nickoscope32"
+				(path "/657a6403-bab3-4845-b291-93bf2a64f630"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 154.94)
+		(size 25.4 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "87181ff5-8abd-421c-8821-d589bc742d08")
+		(property "Sheetname" "Logic"
+			(at 55.88 154.2284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "./Logic/Logic.kicad_sch"
+			(at 55.88 193.6246 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Nickoscope32"
+				(path "/657a6403-bab3-4845-b291-93bf2a64f630"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 101.6)
+		(size 25.4 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b167ee1f-b9b1-48c6-988c-4a5330f8a135")
+		(property "Sheetname" "HVPS"
+			(at 101.6 100.8884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "./HVPS/HVPS.kicad_sch"
+			(at 101.6 140.2846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Cathode" output
+			(at 127 124.46 0)
+			(uuid "ed3ea84b-fa7a-4103-b9bb-befa11f7f424")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Nickoscope32"
+				(path "/657a6403-bab3-4845-b291-93bf2a64f630"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 144.78 154.94)
+		(size 25.4 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c167fe26-3cdf-4d8c-bafd-0679a52a35a7")
+		(property "Sheetname" "Control"
+			(at 144.78 154.2284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" ".\\Control\\Control.kicad_sch"
+			(at 144.78 193.6246 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Nickoscope32"
+				(path "/657a6403-bab3-4845-b291-93bf2a64f630"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 154.94)
+		(size 25.4 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c7961545-c913-4f91-8acd-9d728243f626")
+		(property "Sheetname" "Analog"
+			(at 101.6 154.2284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "./Analog/Analog.kicad_sch"
+			(at 101.6 193.6246 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Nickoscope32"
+				(path "/657a6403-bab3-4845-b291-93bf2a64f630"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "Transformer_Microsemi_SGE2685-1G.kicad_mod")
+			(type other)
+			(data |KLUv/WDIEA0pADpVZA4pAI22DjyswrzHiIgMeFBZknXHLhinORwjx1e4zfSm4FGacrz//wn89wL6
+				ANgAyAAs8cZvqLmudX6LnNzO01t17atzAmtZjK94eAO1iyqO8xGKx0w8Dqus8hMY54lI4gKD87yP
+				8bU1NpT6M8Xo2Us5H3QsuzUtF5+hQKaigiFB8WAkVOFlpaLK4w0LAQIQgGD8i3zz8RcwlIun+Ymk
+				mSgNDDAU54E/yza6caNxIAJCIsGChwMRDYSWIm5EOMkH5JloQCRvef4nHH8cPh6+WFhYNBoCnMnz
+				TDznYcXDQoChNH/hD110GQ6GxUfcmzCURvJ485F/0LDA4LAU6UKKlIiEcZqP0LDAwCiwqdpCEAUk
+				HAzkHUnzmAhH85BGEp2INwwYyhNhmskjkcSG6qlMkfXp97MU1dWfYpYd3eWrczLdlWkx50rBVLiL
+				o3rL1crlYKeC761NyNFxfJEtSkHGi+3i7ZiPUSfryIkQQ4m8uT13tKvXrr9NLddDLltqnNrOZaP1
+				uDZB5iFxlJ9cPA1o4oGMxVNImsdZFIxwKmtJm8rT+ON8hHk4JlESUSaQCgiOb9zhNO8gFREH9Inj
+				H3/MY1IBIY7SPI8jiHgp15ixVBU7EWSFKVf7dXoekTDPhGFo0W4ucVLMDDPye0K2ONdKKBeEr1Jz
+				D5kJ5y8U+BRP8ogM2G8BUDeiCCM/91r2r5ZrO7mM/szZcrnclC5ykLnK6N6z9XImtS/bM2yUUCN1
+				qD103faXaV+nRsgJ3Xquosdeg4zZKYMvbUrWlMv1IudS51QPV2PUsDGOnhhzs2QMtmx9CL50+qIv
+				FVf/S4pT5OXZqTkhU5WNNZiePXTwNA9Km2LOeNvGjg7lc+psrjkVfC0fbMiq9fFgIrfWFAfGC6fC
+				a1GbyoWEycVDMkGr3zYx1dRns9dym+Lcp15qZNGX+vtmEXZiu8kat4zucaYMDgwOkojiOOBD+A7y
+				L7p791pzjtM163wOOdH6tdyUWbUj17wp1e0lVK3zl3M2xDHhNmpOI8MFkVqvV7PPh7zT03JyeihT
+				W/H9eoosvvuHinY90T8nP0/JErvepBSx1cmdQk61TXXX8jHGuZBiyVg59/YfxxVQOB7hKLas0haE
+				UmGqURjrk9a16GLnzXotdJ+u3GVErbQzLdO4WgHiAQHEAggKAJwK5ZHwD0KupaRY4v1c5i2VIqUS
+				Nf+VkFKpt+m/mLvW85Xj7N+Uqpw3pAGApqBBoTLIGCMSzIgEIhSkCwdwiEyNHOcQCY4jJIAQxCiY
+				QR+l61E3l3MsH6FjMIqci0AOQSpBE2DsgL/eF2hXxkKsy0ex7jenMn4HiepqjWEpD4+sFHhuwAti
+				sVKSDzSPZwCa/aLLlbyGaYLkODRrprsF7aAKui/3ANxCMx1cujHegodM9CBRtUFBWYwgpltY9lO4
+				7UkrtuQbPm0C98YEeBfa6fNSEwcYZJTay9lU9eO74JQLRDvbBlgScGjMhW1JuLsRo7aPFHj16MRt
+				+8PRHnLPNlmLbBfKwwJtzO0/ZUw1NJETrI2ZiuaG7xQAFa73SwS4GwUC2ha6qSPqECiCyeuM12ES
+				7GQjFmBrZ8JEEtrDwIVGWxAovaGPvWvo0DjgoXVQbqyjRjS0LeZwxopAC4LXPAyzQZk2pACvP1FC
+				03eGq9BRUW5Z+I46yMiGwoW5kORgGwA2AL6BmzCIAJCO998YmRwo9ADWC3OukUam6YcMi4hGvNKb
+				MqzZkd+W+1e28hBV|
+			)
+			(checksum "7CE0BEA31C31457F19005419F06AE950")
+		)
+	)
+)
