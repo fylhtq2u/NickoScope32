@@ -1,0 +1,74 @@
+Reference	Value	Qty	Voltage	Description
+C1	470pF	1		Unpolarized capacitor
+C2	1uF	1	25V	Unpolarized capacitor
+C3	4.7uF	1	25V	Unpolarized capacitor
+C4	4700pF	1	500V	Unpolarized capacitor
+C5	2200pF	1	1000V	Unpolarized capacitor
+C6	2200pF	1	1000V	Unpolarized capacitor
+C7	2200pF	1	1000V	Unpolarized capacitor
+C8	2200pF	1	1000V	Unpolarized capacitor
+C9	4.7uF	1	400V	Unpolarized capacitor
+C10	2200pF	1	1000V	Unpolarized capacitor
+C11	2200pF	1	1000V	Unpolarized capacitor
+C12	2200pF	1	1000V	Unpolarized capacitor
+C13	2200pF	1	1000V	Unpolarized capacitor
+C14	2200pF	1	1000V	Unpolarized capacitor
+C15	2200pF	1	1000V	Unpolarized capacitor
+C16	2200pF	1	1000V	Unpolarized capacitor
+C17	4.7uF	1	400V	Unpolarized capacitor
+C18	4.7uF	1	400V	Unpolarized capacitor
+C19	4.7uF	1	400V	Unpolarized capacitor
+C20	4.7uF	1	400V	Unpolarized capacitor
+C21	2200pF	1	1000V	Unpolarized capacitor
+C22	2200pF	1	1000V	Unpolarized capacitor
+D3	SM4007	1		1000V 1A General Purpose Rectifier Diode, MELF
+D4	SM4007	1		1000V 1A General Purpose Rectifier Diode, MELF
+D5	SM4007	1		1000V 1A General Purpose Rectifier Diode, MELF
+D6	SM4007	1		1000V 1A General Purpose Rectifier Diode, MELF
+D7	SM4007	1		1000V 1A General Purpose Rectifier Diode, MELF
+D8	SM4007	1		1000V 1A General Purpose Rectifier Diode, MELF
+D9	SM4007	1		1000V 1A General Purpose Rectifier Diode, MELF
+D10	SM4007	1		1000V 1A General Purpose Rectifier Diode, MELF
+D11	SM4007	1		1000V 1A General Purpose Rectifier Diode, MELF
+D12	SM4007	1		1000V 1A General Purpose Rectifier Diode, MELF
+D13	SM4007	1		1000V 1A General Purpose Rectifier Diode, MELF
+D14	SM4007	1		1000V 1A General Purpose Rectifier Diode, MELF
+J1	Conn_01x01_Socket	1		Generic connector, single row, 01x01, script generated
+J2	Conn_01x01_Socket	1		Generic connector, single row, 01x01, script generated
+J3	Conn_01x01_Socket	1		Generic connector, single row, 01x01, script generated
+J4	Conn_01x01_Socket	1		Generic connector, single row, 01x01, script generated
+J5	Conn_01x01_Socket	1		Generic connector, single row, 01x01, script generated
+J6	Conn_01x01_Socket	1		Generic connector, single row, 01x01, script generated
+J7	Conn_01x01_Socket	1		Generic connector, single row, 01x01, script generated
+J8	Conn_01x01_Socket	1		Generic connector, single row, 01x01, script generated
+J9	Conn_01x01_Socket	1		Generic connector, single row, 01x01, script generated
+Q1	IRF7341PBF	1		4.7A Id, 55V Vdss, Dual N-Channel MOSFET, HEXFET, 0.050 ohms Rds(on), SOIC-8
+R1	10	1		Resistor
+R2	10	1		Resistor
+R3	500m	1		Resistor
+R4	10k	1		Resistor
+R5	100k	1		Resistor
+R6	3M3	1		Resistor
+R7	3M3	1		Resistor
+R8	3M3	1		Resistor
+R9	100k	1		Resistor
+R10	470k	1		Resistor
+R11	560k	1		Resistor
+R12	470k	1		Resistor
+R13	560k	1		Resistor
+R14	470k	1		Resistor
+R15	560k	1		Resistor
+R16	470k	1		Resistor
+R17	560k	1		Resistor
+R18	470k	1		Resistor
+R19	560k	1		Resistor
+R20	180k	1		Resistor
+R21	270k	1		Resistor
+R22	100k	1		Resistor
+R23	0	1		Resistor
+R24	3M3	1		Resistor
+R25	3M3	1		Resistor
+R26	3M3	1		Resistor
+RV1	500k	1		Trim-potentiometer
+TR1	TRANSF4	1		SGE2685-1G
+U1	IRS2153D	1		Self-Oscillating Half-Bridge Driver IC, 600V, 180/260mA, PDIP-8/SOIC-8
