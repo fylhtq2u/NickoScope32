@@ -6,11 +6,12 @@
 	(paper "A3")
 	(title_block
 		(title "Nickoscope32")
+		(date "2026/04/01")
 		(rev "0.1")
 	)
 	(lib_symbols)
 	(sheet
-		(at 55.88 101.6)
+		(at 90.17 161.29)
 		(size 25.4 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26,7 +27,7 @@
 		)
 		(uuid "157fc956-a04e-40ba-ae67-457d39eeb4e1")
 		(property "Sheetname" "PSU"
-			(at 55.88 100.8884 0)
+			(at 90.17 160.5784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37,7 +38,7 @@
 			)
 		)
 		(property "Sheetfile" "./PSU/PSU.kicad_sch"
-			(at 55.88 140.2846 0)
+			(at 90.17 199.9746 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57,7 +58,54 @@
 		)
 	)
 	(sheet
-		(at 55.88 154.94)
+		(at 160.02 158.75)
+		(size 25.4 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6a265994-fffc-4fee-acb2-b3d51d6c28fc")
+		(property "Sheetname" "Analog"
+			(at 160.02 158.0384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "./Analog/Analog.kicad_sch"
+			(at 160.02 197.4346 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Nickoscope32"
+				(path "/657a6403-bab3-4845-b291-93bf2a64f630"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 90.17 101.6)
 		(size 25.4 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -73,7 +121,7 @@
 		)
 		(uuid "87181ff5-8abd-421c-8821-d589bc742d08")
 		(property "Sheetname" "Logic"
-			(at 55.88 154.2284 0)
+			(at 90.17 100.8884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -84,7 +132,7 @@
 			)
 		)
 		(property "Sheetfile" "./Logic/Logic.kicad_sch"
-			(at 55.88 193.6246 0)
+			(at 90.17 140.2846 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -104,7 +152,7 @@
 		)
 	)
 	(sheet
-		(at 101.6 101.6)
+		(at 166.37 101.6)
 		(size 25.4 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -120,7 +168,7 @@
 		)
 		(uuid "b167ee1f-b9b1-48c6-988c-4a5330f8a135")
 		(property "Sheetname" "HVPS"
-			(at 101.6 100.8884 0)
+			(at 166.37 100.8884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -131,7 +179,7 @@
 			)
 		)
 		(property "Sheetfile" "./HVPS/HVPS.kicad_sch"
-			(at 101.6 140.2846 0)
+			(at 166.37 140.2846 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143,7 +191,7 @@
 			)
 		)
 		(pin "Cathode" output
-			(at 127 124.46 0)
+			(at 191.77 124.46 0)
 			(uuid "ed3ea84b-fa7a-4103-b9bb-befa11f7f424")
 			(effects
 				(font
@@ -156,100 +204,6 @@
 			(project "Nickoscope32"
 				(path "/657a6403-bab3-4845-b291-93bf2a64f630"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 144.78 154.94)
-		(size 25.4 38.1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "c167fe26-3cdf-4d8c-bafd-0679a52a35a7")
-		(property "Sheetname" "Control"
-			(at 144.78 154.2284 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" ".\\Control\\Control.kicad_sch"
-			(at 144.78 193.6246 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Nickoscope32"
-				(path "/657a6403-bab3-4845-b291-93bf2a64f630"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 101.6 154.94)
-		(size 25.4 38.1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "c7961545-c913-4f91-8acd-9d728243f626")
-		(property "Sheetname" "Analog"
-			(at 101.6 154.2284 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "./Analog/Analog.kicad_sch"
-			(at 101.6 193.6246 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Nickoscope32"
-				(path "/657a6403-bab3-4845-b291-93bf2a64f630"
-					(page "5")
 				)
 			)
 		)

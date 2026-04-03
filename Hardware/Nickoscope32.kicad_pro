@@ -645,7 +645,7 @@
         "uuid": "657a6403-bab3-4845-b291-93bf2a64f630"
       }
     ],
-    "used_designators": "#PWR12-25,C23-25,R27-28,U3-4",
+    "used_designators": "U6,U12-20,BT1,D2-3,D5,#PWR3,#PWR5,#PWR8,#PWR10,#PWR18-23,#PWR42-76,J2-4,R33-45,SW1,C15-16,C21-22,C24-29,FB1-2",
     "variants": []
   },
   "sheets": [
@@ -666,12 +666,8 @@
       "Logic"
     ],
     [
-      "c7961545-c913-4f91-8acd-9d728243f626",
+      "6a265994-fffc-4fee-acb2-b3d51d6c28fc",
       "Analog"
-    ],
-    [
-      "c167fe26-3cdf-4d8c-bafd-0679a52a35a7",
-      "Control"
     ]
   ],
   "text_variables": {},
